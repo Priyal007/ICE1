@@ -61,7 +61,7 @@ public class CardTrick {
      * @author Paul Bonenfant Jan 2022
      */
     private static void printInfo() {
-    
+        System.out.println("I'm done");
         System.out.println("My name is Gurpriyal Kaur. I am currently enrolled in second semester in Computer Programming at Sheridan College.");
         
     
