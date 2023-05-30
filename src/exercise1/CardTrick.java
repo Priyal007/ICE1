@@ -46,7 +46,7 @@ public class CardTrick {
          for (int i = 0; i < 7; i++) {
             if(cardValue == hand[i].getValue() && suitValue == hand[i].getValue()) {
                 System.out.println("Your guessed card is in the hand of random cards");
-                System.out.println("My name is Gurpriyal Kaur. I am currently enrolled in second semester in Computer Programming at Sheridan College.");
+                printInfo();
                 break;
             }
             else {
@@ -62,24 +62,7 @@ public class CardTrick {
      */
     private static void printInfo() {
     
-        System.out.println("Congratulations, you guessed right!");
-        System.out.println();
-        
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
-        System.out.println();
-        
-        System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
-	System.out.println();	
-
-        System.out.println("My hobbies:");
-        System.out.println("-- Investing");
-        System.out.println("-- Cooking");
-        System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
-
-        System.out.println();
+        System.out.println("My name is Gurpriyal Kaur. I am currently enrolled in second semester in Computer Programming at Sheridan College.");
         
     
     }
