@@ -46,7 +46,7 @@ public class CardTrick {
          for (int i = 0; i < 7; i++) {
             if(cardValue == hand[i].getValue() && suitValue == hand[i].getValue()) {
                 System.out.println("Your guessed card is in the hand of random cards");
-                printInfo();
+                System.out.println("My name is Gurpriyal Kaur. I am currently enrolled in second semester in Computer Programming at Sheridan College.");
                 break;
             }
             else {
